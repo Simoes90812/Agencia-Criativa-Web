@@ -1,108 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência Criativa Web</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência Criativa Web</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
 <header class="header">
-    <div class="header__container container">
-        <div class="header__logo">Agência Criativa Web</div>
+  <div class="header__container container">
+    <div class="header__logo">Agência Criativa Web</div>
 
-        <nav class="nav">
-            <ul class="nav__list">
-                <li><a class="nav__link" href="#home">Home</a></li>
-                <li><a class="nav__link" href="#sobre">Sobre</a></li>
-                <li><a class="nav__link" href="#servicos">Serviços</a></li>
-                <li><a class="nav__link" href="#depoimentos">Depoimentos</a></li>
-                <li><a class="nav__link" href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#home">Home</a></li>
+        <li><a class="nav__link" href="#sobre">Sobre</a></li>
+        <li><a class="nav__link" href="#servicos">Serviços</a></li>
+        <li><a class="nav__link" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <section id="home" class="banner">
-    <img 
-        class="banner__image"
-        src="img/banner-large.jpg"
-        srcset="
-            img/banner-small.jpg 480w,
-            img/banner-medium.jpg 768w,
-            img/banner-large.jpg 1200w"
-        sizes="100vw"
-        alt="Banner Agência Criativa"
-    >
-
-    <div class="banner__content">
-        <h1 class="banner__title">Soluções Criativas para o Mundo Digital</h1>
-        <p class="banner__text">
-            Design, tecnologia e estratégia para impulsionar sua marca.
-        </p>
-    </div>
+  <div class="banner__content container">
+    <h1 class="banner__title">Soluções Criativas para o Mundo Digital</h1>
+    <p class="banner__text">Design e tecnologia para impulsionar sua marca.</p>
+  </div>
 </section>
 
 <section id="sobre" class="section container">
-    <h2 class="section__title">Sobre Nós</h2>
-    <p class="about__text">
-        Somos uma agência de design digital focada em criar experiências modernas,
-        funcionais e impactantes.
-    </p>
+  <h2 class="section__title">Sobre Nós</h2>
+  <p class="section__text">
+    Agência focada em experiências digitais modernas e funcionais.
+  </p>
 </section>
-
-<section id="servicos" class="section container">
-    <h2 class="section__title">Nossos Serviços</h2>
-
-    <div class="services__grid">
-        <div class="card services__item">Design Gráfico</div>
-        <div class="card services__item">Desenvolvimento Web</div>
-        <div class="card services__item">Branding</div>
-        <div class="card services__item">UI/UX Design</div>
-        <div class="card services__item">Marketing Digital</div>
-        <div class="card services__item">Consultoria Criativa</div>
-    </div>
-</section>
-
-<section id="depoimentos" class="section container testimonials">
-    <h2 class="section__title">Depoimentos</h2>
-
-    <div class="card">
-        <p class="testimonial__text">
-            "A Agência Criativa Web transformou nossa presença digital!"
-        </p>
-        <span class="testimonial__author">— Cliente Satisfeito</span>
-    </div>
-
-    <div class="card">
-        <p class="testimonial__text">
-            "Profissionalismo, criatividade e entrega impecável."
-        </p>
-        <span class="testimonial__author">— Empresa Parceira</span>
-    </div>
-</section>
-
-<section id="contato" class="section container contact">
-    <h2 class="section__title">Contato</h2>
-
-    <div class="contact__info">
-        <p>📍 Rua Exemplo, 123</p>
-        <p>📞 (21) 99999-9999</p>
-        <p>✉️ contato@agenciacriativaweb.com</p>
-    </div>
-
-    <form class="contact__form">
-        <input class="contact__input" type="text" placeholder="Seu nome" required>
-        <input class="contact__input" type="email" placeholder="Seu e-mail" required>
-        <textarea class="contact__textarea" placeholder="Sua mensagem" required></textarea>
-        <button class="contact__button" type="submit">Enviar</button>
-    </form>
-</section>
-
-<footer class="footer">
-    <p>© 2026 Agência Criativa Web</p>
-</footer>
 
 </body>
 </html>
